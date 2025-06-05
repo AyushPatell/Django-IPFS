@@ -1,23 +1,30 @@
-Django-IPFS: Decentralized File Storage with IPFS
-This project is a Django-based web application that integrates InterPlanetary File System (IPFS) for decentralized file storage. It allows users to upload, retrieve, and manage files securely over a distributed network, leveraging IPFS for efficient, immutable, and censorship-resistant storage.
+### 🌐 Django-IPFS (Basic Version)
 
-Features:
-File Upload & Retrieval: Store files on IPFS and retrieve them using their unique hash.
-Decentralized Storage: Eliminates reliance on centralized servers.
-User-Friendly Interface: Simple UI for easy file management.
-Django Backend: Secure and scalable framework for handling requests.
-IPFS API Integration: Connects seamlessly with an IPFS node.
+A simple Django web app that connects with **IPFS** (InterPlanetary File System) to store and retrieve files in a decentralized way. This project serves as a starting point for exploring distributed file storage.
 
-Usage:
-Upload a file via the web interface.
-Retrieve stored files using their IPFS hash.
-Share files securely without relying on central servers.
+#### 📌 Key Features
 
-Technologies Used:
-Django (Python Web Framework)
-IPFS (Decentralized File Storage)
-SQLite (Database)
-Bootstrap (Frontend UI)
+- Upload files from a web form
+- Store them on IPFS using its API
+- Retrieve files using their unique IPFS hash
+- Lightweight UI built with Bootstrap
+- Uses Django as the backend framework
 
-Contributing:
-Contributions are welcome! Feel free to open issues or submit pull requests.
+#### 🛠 Technologies
+
+- **Django** (Python)
+- **IPFS** (via HTTP API)
+- **SQLite** (default Django database)
+- **Bootstrap** (for simple styling)
+
+#### ▶️ How to Use
+
+1. Run the Django server  
+2. Open the web page to upload files  
+3. Get the IPFS hash and use it to retrieve your file
+
+#### 📂 Notes
+
+- This is a basic implementation to demonstrate how Django can work with IPFS.
+- Great as a starting point for building decentralized storage apps.
+
